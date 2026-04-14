@@ -1,5 +1,7 @@
 # simple chatbot
 
+**Try the live app here:** [https://simplechatbotbysiri.streamlit.app/](https://simplechatbotbysiri.streamlit.app/)
+
 created by shreshtha and updated for modern web and natural language processing.
 
 welcome to the simple chatbot! this project is a stream lit based chatbot built in python. it uses spacy for natural language processing and cosine similarity to understand what you type and find the best reply from its dataset. 
