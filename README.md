@@ -2,9 +2,9 @@
 
 **Try the live app here:** [https://simplechatbotbysiri.streamlit.app/](https://simplechatbotbysiri.streamlit.app/)
 
-created by shreshtha and updated for modern web and natural language processing.
+created by shreshtha and updated for modern web and natural language processing. This chatbot works on the concepts of Natural Language Processing (NLP).
 
-welcome to the simple chatbot! this project is a stream lit based chatbot built in python. it uses spacy for natural language processing and cosine similarity to understand what you type and find the best reply from its dataset. 
+welcome to the simple chatbot. this project is a stream lit based chatbot built in python. it uses spacy for natural language processing and cosine similarity to understand what you type and find the best reply from its dataset. 
 
 > this is mainly a proof of concept. to make the bot smarter and talk about more things, we just need to give it bigger datasets to learn from.
 
@@ -57,4 +57,4 @@ start the server by running this in your terminal:
 streamlit run main.py
 ```
 
-a new browser tab will open automatically. type your message in the chat box at the bottom and press enter to talk to the bot!
+a new browser tab will open automatically. type your message in the chat box at the bottom and press enter to talk to the bot.
