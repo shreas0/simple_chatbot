@@ -1,74 +1,39 @@
-# Simple ChatBot
+simple chatbot
 
-*Created by Shreshtha, updated for Modern UI and NLP*
+created by shreshtha and updated for modern web and natural language processing.
 
-Welcome to the **Simple ChatBot**! This project is a modular, Streamlit-based chatbot built in Python. It uses advanced Natural Language Processing (via **spaCy** word embeddings) and Cosine Similarity to understand user input and find the most relevant response from a compiled dataset.
+welcome to the simple chatbot. this project is a stream lit based chatbot built in python. it uses spacy for natural language processing and cosine similarity to understand what you type and find the best reply from its dataset. 
 
-> **Note:** This project is fundamentally a proof-of-concept for NLP that operates based on the provided datasets. to make the chatbot "smarter" and capable of handling a wider variety of topics, we would simply need to include larger and more diverse datasets for it to search through.
+this is mainly a proof of concept. to make the bot smarter and talk about more things, we just need to give it bigger datasets to learn from.
 
-This updated version features a clean web interface, conversation history, and built-in rules for math and time/date detection!
+this version has a clean web interface, memory of past messages, and built in features to solve math or tell you the time and date.
 
----
+capabilities and features
+it uses stream lit for a clean chat interface in your browser.
+it uses spacy to change sentences into numbers that the computer understands.
+it uses cosine similarity to find the closest matching question in its dataset.
+it remembers the last few messages to understand the context of your questions.
+it can solve basic math equations and tell you the current time or date.
+it has fast hardcoded answers for simple hellos and goodbyes.
 
-## Capabilities & Features
+how it works
+the project is built in clear separate parts.
 
-1. **Modern Web UI**: Uses `Streamlit` for a clean, WhatsApp-like chat interface right in your browser.
-2. **Advanced NLP**: Leverages `spaCy`'s `en_core_web_md` model to convert sentences into dense vector representations.
-3. **Smart Matching**: Uses `scikit-learn`'s `cosine_similarity` to find the semantically closest question in the dataset.
-4. **Context Awareness**: Remembers the last few messages to handle short follow-up questions contextually.
-5. **Rule-based Utilities**:
-   - **Math Solver**: Can evaluate basic math expressions (e.g., "5 * 5").
-   - **Time & Date**: Can tell you the current time or date if asked.
-   - **Greetings & Farewells**: Fast, hardcoded responses for basic conversational pleasantries.
+the data processing part reads from three different sources in the datasets folder. it combines a full dataset, a dialog text file, and a greetings dataset into one big table and cleans up the text by removing punctuation and making it lowercase.
 
----
+the nlp part uses the spacy language model to turn every cleaned question into numbers. it saves these calculations into cache files so the bot loads instantly the next time.
 
-## Workflow: How Does it Work?
+the chatbot brain is where the real logic happens. when you send a message, it cleans your text, checks if you are asking for the time or doing math, checks for simple greetings, and if none of those match, it searches the entire dataset for the highest matching answer.
 
-The project has been refactored into a clear, modular architecture:
+the user interface uses stream lit to bring it all together. it shows a loading spinner when starting, keeps track of your chat history, and displays the chat bubbles on your screen.
 
-### 1. **Data Processing (`data_processing.py`)**
-A chatbot is only as smart as its knowledge base! This module reads from three different data sources located in the `Datasets/` folder: a full dataset (`full_dataset.csv`), a dialog text file (`dialogs.txt`), and standard greetings (`chatbot_greetings_dataset.csv`). It uses `pandas` to stitch them all into one giant, unified DataFrame and cleans the text (removing punctuation, making lowercase).
+how to use it
+make sure you have python installed. it is best to use a virtual environment.
 
-### 2. **NLP & Vectorization (`model.py`)**
-Computers understand numbers better than text. This script loads the `spaCy` language model and converts every cleaned question in our dataset into a mathematical vector representation. To make the bot load instantly next time, it caches these calculations into `.npy` and `.pkl` files in the `Datasets/` folder.
+install the required packages by running pip install streamlit pandas scikit learn numpy spacy in your terminal.
 
-### 3. **The Brains (`chatbot.py`)**
-This is the core logic. When you send a message, the `ChatBot` class follows this workflow:
-- **Clean**: Strips punctuation from your input.
-- **Check Utilities**: Checks if you are asking for the time/date or supplying a math equation.
-- **Check Greetings**: Checks if it's a simple greeting or farewell.
-- **Vector Search (Fallback)**: If none of the above match, it transforms your query into a vector, calculates the cosine similarity against the entire dataset, and returns the highest-matching answer (as long as it exceeds a 60% confidence threshold).
+the bot uses a medium english model from spacy. you should download it by running python m spacy download en core web md in your terminal.
 
-### 4. **User Interface (`main.py`)**
-We use `Streamlit` to tie everything together. It initializes the bot (with a loading spinner), maintains the chat history using `st.session_state`, and dynamically renders the chat bubbles on the screen.
+start the server by running streamlit run main.py in your terminal.
 
----
-
-## Steps to Use (From Scratch)
-
-Follow these steps to get the bot running on your local machine:
-
-### 1. Prerequisites
-Ensure you have Python 3.8+ installed on your system. It is highly recommended to use a virtual environment.
-
-### 2. Install Dependencies
-Install the required packages. You will need:
-```bash
-pip install streamlit pandas scikit-learn numpy spacy
-```
-
-### 3. Download the Language Model
-The bot uses `spaCy`'s medium English model. You must download it before running (the code will attempt to download it automatically if missing, but it's best to run this manually):
-```bash
-python -m spacy download en_core_web_md
-```
-
-### 4. Run the Application
-Start the Streamlit server by running `main.py`:
-```bash
-streamlit run main.py
-```
-
-### 5. Chat!
-A new browser tab will automatically open at `http://localhost:8501`. Type your message in the chat box at the bottom and press Enter to talk to the bot!
+a new browser tab will open automatically. type your message in the chat box at the bottom and press enter to talk to the bot.
