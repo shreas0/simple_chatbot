@@ -37,3 +37,4 @@ the bot uses a medium english model from spacy. you should download it by runnin
 start the server by running streamlit run main.py in your terminal.
 
 a new browser tab will open automatically. type your message in the chat box at the bottom and press enter to talk to the bot.
+ 
