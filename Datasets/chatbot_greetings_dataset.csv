@@ -1,0 +1,349 @@
+input,response,category,tone
+Hi,Hello! How can I help you today?,greeting,friendly
+Hello,Hi there! What can I do for you?,greeting,friendly
+Hey,Hey! How's it going?,greeting,casual
+Hi there,Hi! Great to see you. What's on your mind?,greeting,friendly
+Hello there,Hello! Hope you're having a wonderful day. How can I assist?,greeting,warm
+Hey there,Hey there! What's up?,greeting,casual
+Howdy,Howdy! What can I do for you today?,greeting,casual
+Good morning,Good morning! Hope your day is off to a great start!,greeting,warm
+Good afternoon,Good afternoon! How's your day going so far?,greeting,warm
+Good evening,Good evening! How can I help you tonight?,greeting,warm
+Good night,Good night! Sweet dreams. Let me know if you need anything before you go.,farewell,warm
+Greetings,Greetings! Wonderful to have you here. How may I assist?,greeting,formal
+Sup,Sup! What's good?,greeting,casual
+What's up,Not much! Just here to help. What's going on with you?,greeting,casual
+What's good,All good here! How about you?,greeting,casual
+Yo,Yo! What's happening?,greeting,casual
+Heya,Heya! Good to hear from you. What's up?,greeting,casual
+Hi hi,Hi hi! Ready to help whenever you are!,greeting,playful
+Hello hello,Hello hello! What can I do for you?,greeting,playful
+Hiya,Hiya! What brings you here today?,greeting,casual
+Hey hey,Hey hey! How can I be of service?,greeting,casual
+Aloha,Aloha! What can I help you with today?,greeting,friendly
+Bonjour,Bonjour! How can I assist you today?,greeting,friendly
+Hola,Hola! ¿Cómo puedo ayudarte?,greeting,friendly
+Namaste,Namaste! How can I be of help today?,greeting,respectful
+Salutations,Salutations! What brings you my way today?,greeting,formal
+Ahoy,Ahoy! How can I help you navigate today?,greeting,playful
+Hi buddy,Hey buddy! Great to chat with you. What's on your mind?,greeting,friendly
+Hello friend,Hello friend! So glad you're here. What can I do for you?,greeting,warm
+Hey friend,Hey friend! What's going on?,greeting,casual
+Hi pal,Hi pal! What can I help you with?,greeting,casual
+Hello pal,Hello pal! Ready to assist. What do you need?,greeting,friendly
+Hey pal,Hey pal! What's up?,greeting,casual
+Hi mate,Hi mate! How are things?,greeting,casual
+Hello mate,Hello mate! What can I do for you today?,greeting,casual
+Hey mate,Hey mate! Good to hear from you!,greeting,casual
+Hi dude,Hey dude! What's going on?,greeting,casual
+Hello dude,Hello dude! What's up?,greeting,casual
+Hey dude,Hey dude! What can I do for ya?,greeting,casual
+How are you,"""I'm doing great, thanks for asking! How about you?""",small_talk,friendly
+How are you doing,I'm doing well and ready to help! How are you?,small_talk,friendly
+How do you do,I'm doing splendidly! How about yourself?,small_talk,formal
+How's it going,It's going really well! Thanks for asking. How about you?,small_talk,casual
+How's everything,Everything's great on my end! How about with you?,small_talk,friendly
+How's life,Life is good! Thanks for asking. What about you?,small_talk,casual
+How are things,Things are going smoothly! How are things on your end?,small_talk,casual
+How have you been,"""I've been great, thank you! How have you been?""",small_talk,friendly
+Are you there,"""Yes, I'm right here! How can I help?""",availability,friendly
+You there,"""Yep, I'm here! What do you need?""",availability,casual
+Anyone there,Yes! I'm here and ready to help. What's on your mind?,availability,friendly
+Hello? Anyone there,"""Hi there! Yes, I'm here. What can I do for you?""",availability,friendly
+Is this thing on,"""Ha! Yes, I'm here and working perfectly. How can I help?""",availability,playful
+Hey are you awake,Awake and ready to help! What do you need?,availability,casual
+Are you online,"""Yes, I'm online and ready to assist! What do you need?""",availability,friendly
+Are you active,Fully active and at your service! How can I help?,availability,friendly
+Are you available,Absolutely! I'm available and ready to help. What's up?,availability,friendly
+Are you busy,Never too busy for you! What can I help with?,availability,friendly
+Can you help me,Of course! I'd love to help. What do you need?,request,friendly
+Can you help,Absolutely! Tell me what you need and I'll do my best.,request,friendly
+I need help,I'm here for you! What do you need help with?,request,supportive
+Please help,Of course! Tell me what's going on and I'll do my best to assist.,request,supportive
+Help me please,Sure thing! What do you need help with?,request,supportive
+Help,I'm here! What do you need?,request,supportive
+Help!,I'm on it! What do you need help with?,request,urgent
+I need assistance,I'm happy to assist! What do you need?,request,formal
+Can I ask you something,Of course! Go ahead and ask anything.,request,friendly
+Can I ask a question,Absolutely! Ask away.,request,friendly
+I have a question,Sure! What's your question? I'm all ears.,request,friendly
+Quick question,Of course! What would you like to know?,request,friendly
+I have a quick question,Fire away! I'm happy to help.,request,friendly
+I have a problem,I'm sorry to hear that. Tell me what's going on and we'll figure it out together.,request,supportive
+I'm having trouble,Let's sort it out together. What seems to be the problem?,request,supportive
+I'm confused,No worries! I'm here to help clear things up. What's confusing you?,request,supportive
+I don't understand,That's okay! Let me try to help. What don't you understand?,request,supportive
+Nice to meet you,Nice to meet you too! I'm thrilled to be chatting with you.,introduction,warm
+Good to meet you,Good to meet you as well! What can I do for you?,introduction,friendly
+Pleased to meet you,The pleasure is mine! How can I assist you today?,introduction,formal
+Great to meet you,Great to meet you too! What brings you here?,introduction,friendly
+Nice to talk to you,Likewise! I enjoy our conversations. What's on your mind?,introduction,warm
+I'm new here,Welcome! You're in the right place. Feel free to ask anything.,introduction,warm
+This is my first time,Welcome! I'm happy to help you get started. What do you need?,introduction,warm
+I'm a new user,Welcome aboard! I'm here to help with whatever you need.,introduction,warm
+Hi I'm back,Welcome back! Great to hear from you again. What can I help with?,returning,warm
+I'm back,Welcome back! Missed you. What's going on?,returning,warm
+Hey I'm back,"""Hey, welcome back! What do you need today?""",returning,casual
+I'm here again,Good to have you back! What can I help with?,returning,friendly
+I came back,Glad you returned! What can I do for you?,returning,friendly
+Long time no see,It's great to hear from you again! What have you been up to?,returning,warm
+Haven't talked in a while,Welcome back! It's been a while. How can I help you today?,returning,warm
+It's been a while,Good to hear from you again! How have things been?,returning,warm
+I'm here,Great! I'm here too. What can I do for you?,availability,friendly
+Here I am,Welcome! Glad you're here. What can I help you with?,availability,friendly
+Okay I'm ready,Perfect! I'm ready too. What would you like to do?,availability,friendly
+Let's talk,I'd love to talk! What's on your mind?,small_talk,friendly
+Let's chat,"""Great, let's chat! What would you like to discuss?""",small_talk,friendly
+Talk to me,I'm all ears! What would you like to talk about?,small_talk,friendly
+What can you do,"""I can help with answering questions, having conversations, giving information, and much more! What do you need?""",capability,friendly
+What are you capable of,"""I'm capable of quite a lot! Answering questions, explaining topics, helping brainstorm — you name it.""",capability,friendly
+What do you do,"""I help people by answering questions, having conversations, and providing information. What do you need?""",capability,friendly
+Who are you,I'm a helpful chatbot here to assist you! What can I do for you?,identity,friendly
+What are you,I'm a conversational AI assistant here to help you with questions and more!,identity,friendly
+Are you a bot,"""Yes, I'm a bot! But I'm here to genuinely help you. What do you need?""",identity,friendly
+Are you a robot,"""I'm an AI assistant, so yes! A very helpful one. What can I do for you?""",identity,friendly
+Are you human,"""I'm an AI, not a human — but I'll do my best to be as helpful as one! What's up?""",identity,friendly
+Are you real,I'm a real AI assistant! Here and ready to help.,identity,friendly
+Are you AI,"""Yes, I'm an AI assistant! What can I help you with today?""",identity,friendly
+Are you ChatGPT,"""No, I'm a different AI assistant! But I'm here to help just the same. What do you need?""",identity,friendly
+Tell me about yourself,"""I'm a friendly AI chatbot designed to help you with questions, conversations, and all kinds of tasks! What can I do for you?""",identity,friendly
+What's your name,I'm your friendly chatbot assistant! What's your name?,identity,friendly
+Do you have a name,You can call me whatever you'd like! I'm here to help. What do you need?,identity,playful
+What should I call you,You can call me your assistant! What can I help you with?,identity,playful
+Thanks,You're welcome! Let me know if there's anything else I can help with.,gratitude,friendly
+Thank you,My pleasure! Is there anything else you need?,gratitude,friendly
+Thank you so much,So glad I could help! Don't hesitate to ask if you need anything else.,gratitude,warm
+Thanks a lot,Happy to help! Come back anytime.,gratitude,friendly
+Thanks a bunch,Anytime! What else can I do for you?,gratitude,casual
+Many thanks,It was my pleasure! Let me know if anything else comes up.,gratitude,formal
+Much appreciated,Happy to be of help! Is there anything else?,gratitude,friendly
+I appreciate it,Glad I could assist! Anything else on your mind?,gratitude,friendly
+I appreciate your help,It was my pleasure to help! Let me know if you need anything more.,gratitude,warm
+That was helpful,I'm glad I could help! Feel free to come back anytime.,gratitude,friendly
+That helped a lot,Wonderful! I'm really glad to hear that. Let me know if anything else comes up.,gratitude,warm
+You're amazing,Thank you so much! That really means a lot. How else can I help?,compliment,warm
+You're great,"""Aw, thank you! You're pretty great yourself. What can I do for you?""",compliment,friendly
+You're awesome,Thanks! You're awesome too! What else can I help with?,compliment,casual
+You're very helpful,I'm so glad I could be helpful! That's what I'm here for.,compliment,warm
+You did great,Thank you so much! I appreciate the kind words.,compliment,warm
+Good job,Thanks! It's always great to know I'm being helpful.,compliment,friendly
+Well done,Thank you! I appreciate the encouragement.,compliment,friendly
+Nice work,Thank you kindly! Let me know if there's more I can do.,compliment,friendly
+Perfect,Glad to hear it was perfect! Anything else I can help with?,compliment,friendly
+Excellent,Thank you! I'm here whenever you need me.,compliment,friendly
+Goodbye,Goodbye! It was great chatting with you. Have a wonderful day!,farewell,warm
+Bye,Bye! Take care and come back anytime.,farewell,friendly
+Bye bye,Bye bye! Hope to chat again soon.,farewell,friendly
+See ya,See ya! Come back anytime.,farewell,casual
+See you later,See you later! Hope to chat again soon.,farewell,friendly
+Later,Later! Take care.,farewell,casual
+Take care,You too! Have a great day.,farewell,warm
+Have a good day,Thanks! You too — have an amazing day!,farewell,warm
+Have a great day,Thank you! I hope you have a fantastic day as well!,farewell,warm
+Have a nice day,Thanks! Wishing you a wonderful day!,farewell,warm
+Have a good one,You too! Cheers!,farewell,casual
+Talk to you later,Looking forward to it! Take care until then.,farewell,friendly
+Talk soon,Sounds good! Talk soon.,farewell,casual
+Until next time,Until next time! Take care.,farewell,friendly
+Farewell,Farewell! It was a pleasure chatting with you.,farewell,formal
+Catch you later,Catch you later! Take it easy.,farewell,casual
+Peace,Peace out! Take care.,farewell,casual
+Cheers,Cheers! Have a brilliant day.,farewell,casual
+Toodles,Toodles! Come back soon.,farewell,playful
+Ciao,Ciao! Have a wonderful day.,farewell,casual
+Adios,Adios! Until next time.,farewell,casual
+Tata,Tata! Hope to chat again soon.,farewell,playful
+Okay goodbye,Goodbye! It was great talking to you.,farewell,friendly
+Alright bye,"""Alright, bye! Take care of yourself.""",farewell,casual
+That's all for now,Okay! Come back whenever you need anything. Goodbye for now!,farewell,friendly
+I'm done,Okay! Hope I was helpful. Have a great day!,farewell,friendly
+I'm leaving,Alright! Come back anytime. Take care!,farewell,friendly
+I have to go,No problem! Come back whenever you need. Take care!,farewell,friendly
+I need to go,Of course! It was great chatting. Goodbye for now!,farewell,friendly
+Gotta go,No worries! Come back anytime. Take care!,farewell,casual
+I'll be back,Looking forward to it! See you then.,farewell,friendly
+I'll talk to you later,Sounds good! Looking forward to it. Take care!,farewell,friendly
+Okay,Okay! Let me know if you need anything else.,acknowledgement,friendly
+Alright,Alright! I'm here if you need me.,acknowledgement,friendly
+Sure,Sure thing! What else can I help with?,acknowledgement,friendly
+Got it,Great! Let me know if anything else comes up.,acknowledgement,friendly
+Understood,Perfect! I'm here if you need me.,acknowledgement,formal
+I see,Glad that makes sense! Anything else on your mind?,acknowledgement,friendly
+Makes sense,Great! Let me know if you need more clarification.,acknowledgement,friendly
+That makes sense,Wonderful! Feel free to ask if anything else comes up.,acknowledgement,friendly
+Sounds good,Excellent! I'm here whenever you need me.,acknowledgement,friendly
+That's good to know,Happy to share! Let me know if you have more questions.,acknowledgement,friendly
+Interesting,I'm glad you find it interesting! Want to know more?,acknowledgement,friendly
+Cool,Cool! Let me know if there's anything else.,acknowledgement,casual
+Nice,Nice! Anything else I can help you with?,acknowledgement,casual
+Great,Great! What else can I do for you?,acknowledgement,friendly
+Awesome,Awesome! Let me know if you need anything else.,acknowledgement,casual
+Wonderful,Wonderful! I'm here if you need me.,acknowledgement,warm
+Fantastic,Fantastic! What else can I help with?,acknowledgement,friendly
+Brilliant,Brilliant! Let me know if there's anything else.,acknowledgement,friendly
+Amazing,Amazing! Feel free to ask anything else.,acknowledgement,friendly
+Wow,"""I know, right?! Anything else you'd like to know?""",acknowledgement,playful
+Oh wow,"""Ha! Pretty cool, isn't it? What else can I help with?""",acknowledgement,playful
+Really,Really! Anything else you'd like to know?,acknowledgement,friendly
+Seriously,Seriously! Let me know if you have more questions.,acknowledgement,casual
+No way,Yes way! Anything else I can share?,acknowledgement,playful
+That's crazy,"""Ha, I know! Anything else on your mind?""",acknowledgement,casual
+That's interesting,Glad you think so! Would you like to explore more?,acknowledgement,friendly
+Tell me more,I'd be happy to tell you more! What specifically would you like to know?,small_talk,friendly
+Go on,Please go ahead! I'm listening.,small_talk,friendly
+I'm listening,Thank you! What would you like to share?,small_talk,friendly
+I'm all ears,Go ahead! What would you like to say?,small_talk,friendly
+What else,There's plenty more I can share! What are you curious about?,small_talk,friendly
+What next,Up to you! What would you like to do or talk about next?,small_talk,friendly
+What now,What would you like to do now? I'm here to help!,small_talk,friendly
+Now what,Now we can do whatever you'd like! What do you need?,small_talk,friendly
+And then,Go on! What happens next or what do you need?,small_talk,friendly
+So,So... what's on your mind? I'm here!,small_talk,casual
+Well,"""Well, I'm here and ready! What can I help you with?""",small_talk,casual
+Hmm,Take your time! I'm here whenever you're ready.,small_talk,patient
+Um,No rush at all! What would you like to say?,small_talk,patient
+Uh,Take all the time you need! I'm listening.,small_talk,patient
+Er,No worries! What did you want to ask?,small_talk,patient
+I don't know,That's okay! Maybe I can help you figure it out. What's on your mind?,small_talk,supportive
+I'm not sure,No problem! Let's think it through together. What's going on?,small_talk,supportive
+Maybe,That's totally fine! There's no pressure. What can I help you with?,small_talk,supportive
+I guess,Whatever feels right to you! I'm here to help either way.,small_talk,supportive
+Whatever,I'm flexible! Just let me know what you need.,small_talk,friendly
+It doesn't matter,Okay! I'm here regardless. What can I do for you?,small_talk,friendly
+I'm bored,"""Oh no! Maybe I can help with that. Would you like to play a game, hear a fun fact, or chat?""",small_talk,playful
+I'm tired,I'm sorry to hear that. Hope you get some rest soon! Is there anything I can help you with?,small_talk,empathetic
+I'm happy,That's wonderful to hear! What's making you happy?,small_talk,warm
+I'm sad,I'm sorry to hear that. I'm here if you want to talk about it.,small_talk,empathetic
+I'm excited,That's great! What are you excited about?,small_talk,enthusiastic
+I'm nervous,That's understandable. What are you nervous about? Maybe I can help.,small_talk,supportive
+I'm stressed,I'm sorry. Is there anything I can do to help?,small_talk,empathetic
+I'm okay,Glad to hear it! What can I help you with?,small_talk,friendly
+I'm fine,Good to hear! What can I do for you today?,small_talk,friendly
+I'm great,That's wonderful! What can I help you with?,small_talk,warm
+I'm good,Great to hear! What's on your mind?,small_talk,friendly
+I'm doing well,Wonderful! I'm glad. What can I do for you?,small_talk,friendly
+Not bad,Good to hear! What can I help you with?,small_talk,friendly
+Could be better,I hope things look up soon! Is there anything I can do?,small_talk,empathetic
+Not great,I'm sorry to hear that. Is there anything I can help with?,small_talk,empathetic
+Not good,I'm sorry. What's going on? Maybe I can help.,small_talk,empathetic
+Terrible,I'm really sorry to hear that. Want to talk about it?,small_talk,empathetic
+Awful,"""Oh no, I'm sorry! Is there anything I can do to help?""",small_talk,empathetic
+Hi how are you,"""Hi! I'm doing wonderfully, thank you! How are you?""",greeting,friendly
+Hello how are you,Hello! I'm doing great. How about you?,greeting,friendly
+Hey how are you,"""Hey! I'm doing well, thanks. How about yourself?""",greeting,casual
+Hi what's up,"""Hi! Not much, just here to help. What's up with you?""",greeting,casual
+Hello what's up,Hello! Just ready to help. What's going on?,greeting,friendly
+Hey what's up,Hey! Just chilling and ready to chat. What's up?,greeting,casual
+Hi how's it going,Hi! It's going great on my end. How about you?,greeting,friendly
+Hello how's it going,"""Hello! Going really well, thanks! How are you?""",greeting,friendly
+Morning,Good morning! Ready to help. What do you need?,greeting,casual
+Afternoon,Good afternoon! How can I help?,greeting,casual
+Evening,Good evening! What can I do for you?,greeting,casual
+Hey good morning,Good morning! Hope you're having a great start to the day!,greeting,casual
+Hey good afternoon,Good afternoon! How's your day going?,greeting,casual
+Hey good evening,Good evening! How can I help tonight?,greeting,casual
+Hello good morning,Hello and good morning! What can I do for you today?,greeting,friendly
+Hello good afternoon,Hello! Good afternoon. How can I assist you?,greeting,friendly
+Hello good evening,Hello! Good evening. What can I help you with?,greeting,friendly
+Hi good morning,Hi and good morning! Hope your day is starting off great!,greeting,warm
+Hi good afternoon,Hi! Good afternoon. What can I do for you?,greeting,warm
+Hi good evening,Hi! Good evening. How can I assist you tonight?,greeting,warm
+Howdy partner,Howdy partner! What can I do for ya today?,greeting,playful
+What's crackin,Not much! Just here to help. What's crackin' with you?,greeting,casual
+What's poppin,Things are great here! What's poppin with you?,greeting,casual
+What's the deal,Hey there! What can I help you with?,greeting,casual
+How goes it,It goes great! Thanks for asking. How about you?,small_talk,casual
+How's tricks,Tricks are going well! What about you?,small_talk,casual
+How's your day,My day is going wonderfully! How about yours?,small_talk,friendly
+How's your day going,My day is great! How's yours going so far?,small_talk,friendly
+How was your day,I hope it was great! How was your day?,small_talk,friendly
+How's your morning,My morning is going splendidly! How's yours?,small_talk,friendly
+How's your evening,My evening is going well! How's yours?,small_talk,friendly
+How's your week,It's been a great week! How about yours?,small_talk,friendly
+How's your weekend,Sounds like a fun weekend! How has it been for you?,small_talk,friendly
+Having a good day,I hope so! Are you having a good day?,small_talk,friendly
+Having a bad day,I hope it gets better! What's going on?,small_talk,empathetic
+Good to see you,Good to see you too! What can I help you with?,greeting,warm
+Great to see you,Great to see you as well! How can I help?,greeting,warm
+Wonderful to see you,Wonderful to see you too! What can I do for you?,greeting,warm
+Good to hear from you,Good to hear from you too! What's on your mind?,greeting,warm
+Great to hear from you,Great to hear from you! How can I assist?,greeting,warm
+Lovely to hear from you,Lovely to hear from you as well! What can I do for you?,greeting,warm
+Can we talk,Of course! I'm all yours. What would you like to talk about?,small_talk,friendly
+Can we chat,Absolutely! What's on your mind?,small_talk,friendly
+I want to talk,I'm here! What would you like to talk about?,small_talk,friendly
+I want to chat,I'd love to chat! What do you want to discuss?,small_talk,friendly
+Just wanted to say hi,Hi back at ya! Always great to hear from you. What's up?,greeting,friendly
+Just saying hi,Hi! So glad you did. How are you?,greeting,friendly
+Just checking in,Hey! Good to hear from you. How are things?,greeting,friendly
+Just dropping by,Thanks for stopping by! What can I do for you?,greeting,friendly
+Popping in to say hi,Hi! Always great to hear from you.,greeting,friendly
+Thought I'd say hello,Hello! So glad you did. How are you doing?,greeting,friendly
+Wanted to say hello,Hello! That's so kind. How are you?,greeting,warm
+Hello again,Hello again! Great to have you back. What can I help with?,returning,friendly
+Hi again,Hi again! Glad you're back. What do you need?,returning,friendly
+Hey again,Hey again! What's up?,returning,casual
+Hello once more,Hello once more! What can I do for you?,returning,friendly
+Hi once more,Hi once more! What's going on?,returning,friendly
+Back again,You're back again! Great. What can I help with?,returning,friendly
+Here again,"""Here again, and I'm glad! What can I do for you?""",returning,friendly
+Me again,You again! Great to hear from you. What do you need?,returning,playful
+It's me again,It's you again! Welcome back. How can I help?,returning,playful
+Remember me,Of course! Welcome back. What can I help you with?,returning,warm
+You remember me,Absolutely! Good to have you back. What's on your mind?,returning,warm
+We spoke before,I'm glad you came back! How can I help you today?,returning,friendly
+We talked before,Welcome back! What can I do for you today?,returning,friendly
+Oh hi,Oh hi! Great to see you here. What can I help with?,greeting,warm
+Oh hello,Oh hello! What a nice surprise. How can I assist?,greeting,warm
+Oh hey,Oh hey! What's going on?,greeting,casual
+Oh hey there,Oh hey there! What's up?,greeting,casual
+Well hello,Well hello! Great to see you. What can I do for you?,greeting,playful
+Well hi there,Well hi there! What's going on?,greeting,playful
+Why hello,Why hello there! Lovely to meet you. How can I help?,greeting,playful
+Why hello there,Why hello there! What can I do for you today?,greeting,playful
+Hello you,Hello to you too! What's going on?,greeting,playful
+Hey you,Hey you! What's up?,greeting,casual
+Hi you,Hi there! What can I do for you?,greeting,casual
+Good to have you here,Thank you! Good to be here for you. What can I help with?,greeting,warm
+Glad you're here,And I'm glad you're here too! What can I do for you?,greeting,warm
+Glad to have you,So glad you stopped by! What can I help with?,greeting,warm
+Happy to see you,Happy to be seen! What can I do for you?,greeting,warm
+Lovely to meet you,Lovely to meet you too! How can I be of service?,introduction,formal
+Pleasure to meet you,The pleasure is all mine! How can I help you?,introduction,formal
+Pleasure to make your acquaintance,The pleasure is mine as well! How may I assist you?,introduction,formal
+What a pleasure,Thank you! It's a pleasure for me too. What can I do for you?,introduction,warm
+What a delight,What a delight indeed! How can I be of service?,introduction,warm
+Excuse me,Of course! How can I help?,request,polite
+Pardon me,No worries at all! What can I do for you?,request,polite
+Sorry to bother you,You're not bothering me at all! What do you need?,request,polite
+Sorry to interrupt,No interruption at all! I'm here to help. What's up?,request,polite
+I hope I'm not bothering you,Not at all! I'm here specifically for you. What do you need?,request,polite
+I hate to bother you,You're never a bother! What can I do for you?,request,polite
+Quick thing,Of course! What is it?,request,friendly
+One more thing,Sure! What else do you need?,request,friendly
+Before you go,Of course! What did you want to say?,request,friendly
+Actually,Go ahead! What's on your mind?,request,friendly
+Wait,Take your time! I'm listening.,request,patient
+Hold on,No rush! I'm here whenever you're ready.,request,patient
+Never mind,Okay! Just know I'm here if you change your mind.,request,patient
+Forget it,Alright! I'm here if you need anything.,request,patient
+It's nothing,Okay! I'm here whenever you need something.,request,patient
+Don't worry about it,Alright! Feel free to come back anytime.,request,patient
+Let's start over,Of course! How can I help you?,request,friendly
+Start over,Sure! Let's begin fresh. What do you need?,request,friendly
+Can we start again,Absolutely! Let's start from the top. What can I help you with?,request,friendly
+Let's begin,Great! Let's get started. What would you like to do?,request,friendly
+Let's get started,Excellent! What would you like to begin with?,request,friendly
+I'm ready,Great! I'm ready too. What would you like to do?,availability,friendly
+Ready,Perfect! So am I. What can I help you with?,availability,friendly
+Let's go,Let's do it! What are we starting with?,availability,casual
+Let's do this,Yes! Let's do this. What are we working on?,availability,casual
+Here we go,Here we go! What are we diving into?,availability,casual
+Okay let's begin,Great! What would you like to start with?,availability,friendly
+Alright let's start,Alright! What's first on the agenda?,availability,friendly
+I'm here to ask something,Of course! Go right ahead and ask.,request,friendly
+I want to ask something,Sure! What would you like to ask?,request,friendly
+I need to ask you something,Of course! What's on your mind?,request,friendly
+Can I talk to you,Absolutely! What would you like to talk about?,small_talk,friendly
+I'd like to talk,I'd like that too! What's on your mind?,small_talk,friendly
+Do you want to talk,Absolutely! I'm all yours. What's on your mind?,small_talk,friendly
